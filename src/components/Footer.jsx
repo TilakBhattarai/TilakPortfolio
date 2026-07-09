@@ -10,7 +10,7 @@ export default function Footer() {
                 <a href="https://www.linkedin.com/in/biwash-bhattarai/"><Linkedin size={16} /></a>
                 <a href="mailto:biwashbhattarai352@gmail.com"><Mail size={16} /></a>
             </div>
-            <p>Designed & Developed by Biwash</p>
+            <p>Designed & Developed by Tilak</p>
         </footer>
     );
 }
