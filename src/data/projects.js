@@ -1,7 +1,6 @@
-import Vyapaar from "src/assets/Vyapaar.jpg";
-import EmployeeMgmt from "src/assets/EmployeeMgmt.png";
-import TaskFlow from "src/assets/TaskFlow.png";
-
+import Vyapaar from "../assets/Vyapaar.webp";
+import EmployeeMgmt from "../assets/EmployeeMgmt.webp";
+import TaskFlow from "../assets/TaskFlow.webp";
 export const projects = [
     {
         title: "Vyapaar",
