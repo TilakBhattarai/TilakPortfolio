@@ -1,17 +1,26 @@
 export const projects = [
     {
-        title: "Django Todo App",
-        desc: "A full-featured task manager with CRUD, search, priority tagging, and mark-as-complete, built while learning Django fundamentals.",
-        tags: ["Django", "Python", "SQLite", "HTML/CSS"],
+        title: "Vyapaar",
+        desc: "A modern eCommerce platform with product browsing, cart functionality, and responsive UI.",
+        tags: ["React.js", "Tailwind CSS", "Javascript"],
+        image: "src/assets/Vyapaar.jpg",
+        github: "https://github.com/BIwashbhatarai/ecommerce-app",
+        demo: "https://bazaar-site.vercel.app/"
     },
     {
-        title: "SEBS School Website",
-        desc: "A real client website for a boarding school in Itahari, Nepal, focused on responsive layout and clean component structure.",
-        tags: ["React", "Tailwind CSS", "React Router"],
+        title: "TeamFlow",
+        desc: "Modern employee management dashboard with role-based access, employee tracking, and admin controls.",
+        tags: ["React.js", "Tailwind CSS", "Javascript"],
+        image: "src/assets/EmployeeMgmt.png",
+        github: "https://github.com/BIwashbhatarai/ecommerce-app",
+        demo: "https://bazaar-site.vercel.app/"
     },
     {
-        title: "Fitness Onboarding App",
-        desc: "A multi-screen onboarding flow for a fitness app with goal selection and activity level, using Context API for state.",
-        tags: ["React", "Context API", "React Router"],
+        title: "TaskFlow",
+        desc: "Django-based task management application featuring user authentication, CRUD operations, task filtering, priority management, dashboard statistics, and deployment on Render.",
+        tags: ["Python", "Django", "HTML", "CSS", "SQLite"],
+        image: "src/assets/TaskFlow.png",
+        github: "https://github.com/BIwashbhatarai/taskflow",
+        demo: "https://taskflow-vh1v.onrender.com/sign_in/?next=/"
     },
 ];

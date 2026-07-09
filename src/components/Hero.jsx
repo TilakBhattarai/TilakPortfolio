@@ -25,7 +25,7 @@ export default function Hero({ scrollTo }) {
                 </p>
 
                 <h1 className="text-5xl md:text-7xl font-extrabold mb-4 font-display">
-                    Biwash
+                    Tilak
                 </h1>
 
                 <div className="h-10 mb-6">
@@ -36,8 +36,7 @@ export default function Hero({ scrollTo }) {
                 </div>
 
                 <p className="max-w-xl mx-auto text-base md:text-lg opacity-70 mb-10">
-                    BCA student building real projects, solving DSA daily, and working
-                    toward a career as a Full Stack & AI/ML Engineer.
+                    BIT student passionate about building real-world web applications with Django, solving Data Structures & Algorithms, and working toward a career in AI/ML Engineering.
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center mb-10">
@@ -48,18 +47,18 @@ export default function Hero({ scrollTo }) {
                         View Projects
                     </button>
 
-                    <a
+                    {/* <a
                         href="#"
                         className="glass px-7 py-3 rounded-full font-semibold text-sm flex items-center gap-2"
                     >
                         <Download size={16} />
                         Download Resume
-                    </a>
+                    </a> */}
                 </div>
 
                 <div className="flex gap-5 justify-center">
                     <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/BIwashbhatarai/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="glass p-3 rounded-full hover:scale-110 transition text-teal-400"
@@ -68,7 +67,7 @@ export default function Hero({ scrollTo }) {
                     </a>
 
                     <a
-                        href="https://linkedin.com/in/yourusername"
+                        href="https://www.linkedin.com/in/biwash-bhattarai/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="glass p-3 rounded-full hover:scale-110 transition text-teal-400"
@@ -77,7 +76,7 @@ export default function Hero({ scrollTo }) {
                     </a>
 
                     <a
-                        href="mailto:you@example.com"
+                        href="mailto:biwashbhattarai352@gmail.com"
                         className="glass p-3 rounded-full hover:scale-110 transition text-teal-400"
                     >
                         <Mail size={18} />

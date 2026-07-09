@@ -14,7 +14,7 @@ export default function Navbar({ scrollTo }) {
         <>
             <nav className="glass fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 flex items-center justify-between">
                 <span className="text-xl font-bold font-display">
-                    Biwash<span className="text-amber">.</span>
+                    Tilak
                 </span>
                 <div className="hidden md:flex gap-8 text-sm font-medium">
                     {navItems.map((item) => (

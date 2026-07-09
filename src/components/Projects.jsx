@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, ExternalLink, Code2 } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 import Reveal from "./Reveal";
 import SectionLabel from "./SectionLabel";
 import { projects } from "../data";
@@ -17,11 +17,28 @@ export default function Projects() {
             <div className="grid md:grid-cols-3 gap-6">
                 {projects.map((p, i) => (
                     <Reveal key={p.title} delay={i * 120}>
-                        <div className="glass rounded-2xl overflow-hidden h-full flex flex-col hover:-translate-y-1 transition duration-300">
-                            <div className="h-36 flex items-center justify-center bg-gradient-to-br from-teal-500/20 to-amber-500/20">
-                                <Code2 size={32} className="text-teal-400" />
+                        <div className="glass rounded-2xl overflow-hidden h-full flex flex-col hover:-translate-y-2 transition duration-300 group">
+
+                            {/* IMAGE HEADER */}
+                            <div className="h-40 relative overflow-hidden">
+                                <img
+                                    src={p.image}
+                                    alt={p.title}
+                                    className="w-full h-full object-cover transition duration-500 group-hover:scale-110"
+                                />
+
+                                {/* overlay */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+                                {/* title on image */}
+                                <div className="absolute bottom-3 left-3">
+                                    <span className="text-white text-sm font-semibold">
+                                        {p.title}
+                                    </span>
+                                </div>
                             </div>
 
+                            {/* CONTENT */}
                             <div className="p-6 flex flex-col flex-1">
                                 <h3 className="font-semibold mb-2 text-lg">
                                     {p.title}
@@ -31,17 +48,19 @@ export default function Projects() {
                                     {p.desc}
                                 </p>
 
+                                {/* TAGS */}
                                 <div className="flex flex-wrap gap-2 mb-5">
                                     {p.tags.map((tag) => (
                                         <span
                                             key={tag}
-                                            className="text-[10px] px-2.5 py-1 rounded-full bg-teal-500/10 text-teal-400"
+                                            className="text-[10px] px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-300"
                                         >
                                             {tag}
                                         </span>
                                     ))}
                                 </div>
 
+                                {/* LINKS */}
                                 <div className="flex gap-4 mt-auto">
                                     <a
                                         href={p.github || "#"}
