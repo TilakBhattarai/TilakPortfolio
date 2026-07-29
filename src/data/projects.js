@@ -1,6 +1,7 @@
 import Vyapaar from "../assets/Vyapaar.webp";
 import EmployeeMgmt from "../assets/EmployeeMgmt.webp";
 import TaskFlow from "../assets/TaskFlow.webp";
+import JobHub from "../assets/JobHub.png";
 export const projects = [
     {
         title: "Vyapaar",
@@ -25,5 +26,14 @@ export const projects = [
         image: TaskFlow,
         github: "https://github.com/BIwashbhatarai/taskflow",
         demo: "https://taskflow-vh1v.onrender.com/sign_in/?next=/"
+    },
+
+    {
+        title: "JobHub",
+        desc: "A full-stack Django job portal connecting recruiters and job seekers with role-based authentication, job posting, job search, application tracking, recruiter dashboards, and resume uploads.",
+        tags: ["Python", "Django", "HTML", "CSS", "SQLite"],
+        image: JobHub,
+        github: "https://github.com/BIwashbhatarai/JobHub",
+        demo: "https://jobhub-v2y0.onrender.com/"
     },
 ];
