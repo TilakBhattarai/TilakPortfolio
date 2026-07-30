@@ -17,7 +17,7 @@ export const projects = [
         tags: ["React.js", "Tailwind CSS", "Javascript"],
         image: EmployeeMgmt,
         github: "https://github.com/BIwashbhatarai/ecommerce-app",
-        demo: "https://bazaar-site.vercel.app/"
+        demo: "https://employee-management-app-mocha-eight.vercel.app/"
     },
     {
         title: "TaskFlow",
