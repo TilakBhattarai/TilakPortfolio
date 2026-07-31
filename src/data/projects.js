@@ -16,7 +16,7 @@ export const projects = [
         desc: "Modern employee management dashboard with role-based access, employee tracking, and admin controls.",
         tags: ["React.js", "Tailwind CSS", "Javascript"],
         image: EmployeeMgmt,
-        github: "https://github.com/BIwashbhatarai/ecommerce-app",
+        github: "https://github.com/BIwashbhatarai/-employee-management-app",
         demo: "https://employee-management-app-mocha-eight.vercel.app/"
     },
     {
