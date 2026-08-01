@@ -1,4 +1,4 @@
-import { Code2, Layers, Terminal } from "lucide-react";
+import { Code2, Layers, Terminal, Database } from "lucide-react";
 
 export const skillGroups = [
     {
@@ -15,10 +15,11 @@ export const skillGroups = [
         title: "Frontend",
         icon: Layers,
         items: [
-            "React",
-            "Tailwind CSS",
             "HTML5",
             "CSS3",
+            "Tailwind CSS",
+            "React",
+            "Vite",
             "Responsive Design",
         ],
     },
@@ -28,10 +29,23 @@ export const skillGroups = [
         items: [
             "Django",
             "Django ORM",
-            "Authentication",
+            "Authentication & Authorization",
+            "Django Forms",
             "Django Signals",
-            "REST API (Learning)",
-            "PostgreSQL (Learning)",
+            "Middleware",
+            "File Uploads",
+        ],
+    },
+    {
+        title: "Database & Tools",
+        icon: Database,
+        items: [
+            "SQLite",
+            "Git",
+            "GitHub",
+            "Postman",
+            "Render",
+            "Vercel",
         ],
     },
 ];
