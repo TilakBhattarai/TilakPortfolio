@@ -58,7 +58,7 @@ export default function Hero({ scrollTo }) {
 
                 <div className="flex gap-5 justify-center">
                     <a
-                        href="https://github.com/BIwashbhatarai/"
+                        href="https://www.linkedin.com/in/tilakbhattarai/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="glass p-3 rounded-full hover:scale-110 transition text-teal-400"
