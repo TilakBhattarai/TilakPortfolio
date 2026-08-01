@@ -19,20 +19,14 @@ export default function Skills() {
                                 </div>
                                 <h3 className="font-semibold">{group.title}</h3>
                             </div>
-                            <div className="flex flex-col gap-4">
+                            <div className="flex flex-wrap gap-2">
                                 {group.items.map((skill) => (
-                                    <div key={skill.name}>
-                                        <div className="flex justify-between text-xs mb-1.5 opacity-80">
-                                            <span>{skill.name}</span>
-                                            <span>{skill.level}%</span>
-                                        </div>
-                                        <div className="h-1.5 rounded-full bg-white/5 overflow-hidden">
-                                            <div
-                                                className="skill-bar-fill h-full rounded-full"
-                                                style={{ width: `${skill.level}%` }}
-                                            />
-                                        </div>
-                                    </div>
+                                    <span
+                                        key={skill}
+                                        className="px-3 py-1.5 rounded-full text-xs bg-white/5 border border-white/10 opacity-80"
+                                    >
+                                        {skill}
+                                    </span>
                                 ))}
                             </div>
                         </div>
