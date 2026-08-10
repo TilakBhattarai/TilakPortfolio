@@ -39,7 +39,7 @@ export default function About() {
 
                         <p className="text-base md:text-lg leading-8 text-gray-300">
                             Right now, I'm deepening my backend skills with
-                            Django, having already built projects with React and
+                            Django and PostgreSQL, having already built projects with React and
                             Tailwind CSS. I practice Data Structures &
                             Algorithms consistently to strengthen my
                             problem-solving, and I'm steadily working toward

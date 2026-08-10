@@ -36,7 +36,7 @@ export default function Hero({ scrollTo }) {
                 </div>
 
                 <p className="max-w-xl mx-auto text-base md:text-lg opacity-70 mb-10">
-                    BIT student passionate about building real-world web applications with Django, solving Data Structures & Algorithms, and working toward a career in AI/ML Engineering.
+                    BIT student passionate about building real-world web applications with Django and PostgreSQL, solving Data Structures & Algorithms, and working toward a career in AI/ML Engineering.
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center mb-10">

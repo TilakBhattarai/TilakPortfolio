@@ -41,6 +41,7 @@ export const skillGroups = [
         icon: Database,
         items: [
             "SQLite",
+            "PostgreSQL",
             "Git",
             "GitHub",
             "Postman",

@@ -31,7 +31,7 @@ export const projects = [
     {
         title: "JobHub",
         desc: "A full-stack Django job portal connecting recruiters and job seekers with role-based authentication, job posting, job search, application tracking, recruiter dashboards, and resume uploads.",
-        tags: ["Python", "Django", "HTML", "CSS", "SQLite"],
+        tags: ["Python", "Django", "HTML", "CSS", "PostgreSQL"],
         image: JobHub,
         github: "https://github.com/BIwashbhatarai/JobHub",
         demo: "https://jobhub-v2y0.onrender.com/"
