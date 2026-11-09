@@ -52,14 +52,6 @@ export default function Hero({ scrollTo }) {
                         View Projects
                     </button>
 
-                    <a
-                        href="/Tilak_Bhattarai_Resume.pdf"
-                        download="Tilak_Bhattarai_Resume.pdf"
-                        className="glass px-7 py-3 rounded-full font-semibold text-sm flex items-center gap-2 hover:scale-105 transition"
-                    >
-                        <Download size={16} />
-                        Download Resume
-                    </a>
                 </div>
 
                 {/* Social Links */}
