@@ -2,6 +2,9 @@ import Vyapaar from "../assets/Vyapaar.webp";
 import EmployeeMgmt from "../assets/EmployeeMgmt.webp";
 import TaskFlow from "../assets/TaskFlow.webp";
 import JobHub from "../assets/JobHub.png";
+import CollabHub from "../assets/Collabhub.jpg";
+
+
 export const projects = [
     {
         title: "Vyapaar",
@@ -35,5 +38,13 @@ export const projects = [
         image: JobHub,
         github: "https://github.com/BIwashbhatarai/JobHub",
         demo: "https://jobhub-v2y0.onrender.com/"
+    },
+    {
+        title: "CollabHub",
+        desc: "A full-stack collaboration platform where developers and students discover collaborators, create public and private projects, send join requests, and manage teams in shared workspaces with a Kanban task board, role-based permissions, and notifications.",
+        tags: ["React", "Tailwind CSS", "Django REST Framework", "PostgreSQL", "JWT"],
+        image: CollabHub,
+        github: "https://github.com/TilakBhattarai/collabhub",
+        demo: "https://collabhub-nu.vercel.app/"
     },
 ];

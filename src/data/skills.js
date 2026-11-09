@@ -1,3 +1,4 @@
+
 import { Code2, Layers, Terminal, Database } from "lucide-react";
 
 export const skillGroups = [
@@ -17,9 +18,10 @@ export const skillGroups = [
         items: [
             "HTML5",
             "CSS3",
-            "Tailwind CSS",
             "React",
             "Vite",
+            "Tailwind CSS",
+            "Axios",
             "Responsive Design",
         ],
     },
@@ -28,9 +30,11 @@ export const skillGroups = [
         icon: Terminal,
         items: [
             "Django",
+            "Django REST Framework",
             "Django ORM",
-            "Authentication & Authorization",
-            "Django Forms",
+            "REST API Development",
+            "JWT Authentication",
+            "Permissions & Authorization",
             "Django Signals",
             "Middleware",
             "File Uploads",
@@ -40,8 +44,9 @@ export const skillGroups = [
         title: "Database & Tools",
         icon: Database,
         items: [
-            "SQLite",
             "PostgreSQL",
+            "SQLite",
+            "Cloudinary",
             "Git",
             "GitHub",
             "Postman",
